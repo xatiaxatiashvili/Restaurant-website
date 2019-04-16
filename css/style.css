@@ -1,0 +1,60 @@
+a
+{
+text-decoration: none;
+color: black;
+}
+.navbar
+{
+	background-color: #f8f9fa;
+}
+.logo img
+{
+	width: 50px;
+}
+.logo h1
+{
+	font-size:18px;
+}
+.navbar-menu
+{
+	display: flex;
+	justify-content: space-between;
+}
+.card-img-top
+{
+	max-height: 200px;
+}
+.carousel-inner
+{
+	max-height:500px;
+}
+
+.carousel-item img
+{
+	width: 100%;
+}
+.restaurant-box
+{
+	background-color: #f8f9fa;
+}
+.reserve
+{
+	opacity: 0.4;
+	max-height: 750px;
+	
+}
+.reserve-row 
+{
+	position: relative;
+}
+.reserve-text
+{
+	position: absolute;
+	text-align: center;
+	top:40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.footer{
+	background-color:lightgrey;
+}
