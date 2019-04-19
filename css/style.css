@@ -20,12 +20,13 @@ color: black;
 {
 	display: flex;
 	justify-content: space-between;
+	width: 100%;
 }
 .card-img-top
 {
 	max-height: 200px;
 }
-.carousel-inner
+.carousel-item
 {
 	max-height:500px;
 }
@@ -33,6 +34,8 @@ color: black;
 .carousel-item img
 {
 	width: 100%;
+	object-fit: cover;
+	height: 500px;
 }
 .restaurant-box
 {
