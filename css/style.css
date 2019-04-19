@@ -13,8 +13,10 @@ color: black;
 }
 .logo h1
 {
-	font-size:18px;
-	font-family: 'Raleway', sans-serif;
+	font-size:22px;
+	line-height: inherit;
+	 vertical-align: baseline;
+	font-family: 'Noto Sans KR', sans-serif;
 }
 .navbar-menu
 {
@@ -59,37 +61,61 @@ color: black;
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
+.footer{
+	background-color:lightgrey;
+}
+.footer-style a
+{
+	color:blue;
+	display: inline-block;
+	font-family: 'Raleway', sans-serif;
+	font-family: 'Courgette', cursive;
+}
+/*fonts-text*/
+.nav-item a
+{
+	font-family: 'Noto Sans KR', sans-serif;
+}
 .restaurant-box h3
 {
-font-family: 'Raleway', sans-serif;
-font-family: 'Courgette', cursive;
+	font-family: 'Raleway', sans-serif;
+	font-family: 'Courgette', cursive;
+}
+.fontstyle label
+{
+	font-family: 'Courgette', cursive;
+	font-family: 'Oleo Script', cursive;
+	font-family: 'Racing Sans One', cursive;
+	font-family: 'Raleway', sans-serif;
+	font-family: 'Titan One', cursive;
+	font-family: 'Amita', cursive;
+	font-family: 'Italiana', serif;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-family: 'Lato', sans-serif;
 }
 .card-body h4
 {
-font-family: 'Raleway', sans-serif;
-font-family: 'Courgette', cursive;
+	font-family: 'Raleway', sans-serif;
+	font-family: 'Courgette', cursive;
 }
 .fontstyle h2
 {
 	font-family: 'Raleway', sans-serif;
-font-family: 'Courgette', cursive;
-font-family: 'Oleo Script', cursive;
-font-family: 'Titan One', cursive;
-font-family: 'Racing Sans One', cursive;
+	font-family: 'Courgette', cursive;
 }
 .list-group li
 {
 	font-family: 'Courgette', cursive;
-font-family: 'Oleo Script', cursive;
-font-family: 'Racing Sans One', cursive;
-font-family: 'Raleway', sans-serif;
-font-family: 'Titan One', cursive;
-font-family: 'Italiana', serif;
-font-family: 'Amita', cursive;
+	font-family: 'Oleo Script', cursive;
+	font-family: 'Racing Sans One', cursive;
+	font-family: 'Raleway', sans-serif;
+	font-family: 'Titan One', cursive;
+	font-family: 'Italiana', serif;
+	font-family: 'Amita', cursive;
 }
 .restaurant-box p
 {
-	font-family: 'Courgette', cursive;
+font-family: 'Courgette', cursive;
 font-family: 'Oleo Script', cursive;
 font-family: 'Racing Sans One', cursive;
 font-family: 'Raleway', sans-serif;
@@ -99,6 +125,30 @@ font-family: 'Italiana', serif;
 font-family: 'M PLUS Rounded 1c', sans-serif;
 font-family: 'Lato', sans-serif;
 }
-.footer{
-	background-color:lightgrey;
+.address-style h3
+{
+	font-family: 'Raleway', sans-serif;
+	font-family: 'Courgette', cursive;
+}
+.address-style p
+{
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-family: 'Inconsolata', monospace;
+}
+.timetable-style h3,h5
+{
+	font-family:'Merienda';
+}
+.footer-style p
+{
+	font-family: 'Courgette', cursive;
+	font-family: 'Oleo Script', cursive;
+	font-family: 'Racing Sans One', cursive;
+	font-family: 'Raleway', sans-serif;
+	font-family: 'Titan One', cursive;
+	font-family: 'Amita', cursive;
+	font-family: 'Italiana', serif;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-family: 'Lato', sans-serif;
 }
