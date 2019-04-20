@@ -7,6 +7,9 @@ color: black;
 {
 	background-color: #f8f9fa;
 }
+.nav-link:hover {
+    color: white;
+}
 .logo img
 {
 	width: 50px;
@@ -24,20 +27,11 @@ color: black;
 	justify-content: space-between;
 	width: 100%;
 }
-.card-img-top
-{
-	max-height: 200px;
-}
-.carousel-item
-{
-	max-height:500px;
-}
-
 .carousel-item img
 {
 	width: 100%;
 	object-fit: cover;
-	height: 500px;
+	/*height: 500px;*/
 }
 .restaurant-box
 {
@@ -152,3 +146,107 @@ font-family: 'Lato', sans-serif;
 	font-family: 'M PLUS Rounded 1c', sans-serif;
 	font-family: 'Lato', sans-serif;
 }
+
+/*responsive-menu*/
+
+@media all and (max-width: 540px) {
+	.navbar{opacity: 0.8}
+    ul.egmenu {  height: auto;}
+    ul.egmenu > li {  float: none;text-align: center; width: 100%; }
+    ul.egmenu a { line-height: 20px; }
+    ul.egmenu ul { position: relative; }
+    .nav-link:hover{
+    color: white;
+    background-color: black;
+					}
+	.map_picture img
+	{
+		width: 100%;
+	}
+	.logo h1
+	{
+		display: none!important;
+	}
+}
+@media all and (min-width: 540px) {
+    ul.egmenu li:hover a{ background: #555;}
+    ul.egmenu li:hover ul { display: block;  }
+    .map_picture img
+	{
+		width: 100%;
+	}
+} 
+@media all and (max-width: 540px) {
+    ul.egmenu {  height: auto; }
+    ul.egmenu > li {  float: none; width: 100%; }
+    ul.egmenu a { line-height: 20px; }
+    ul.egmenu ul { position: relative; }
+
+    ul.egmenu li.tap { background: #555;  }
+    ul.egmenu li.tap ul { display: block;  }
+    .map_picture img
+	{
+		width: 100%;
+	}
+}
+
+
+
+@media all and (max-width: 720px) {
+    .navbar{opacity: 0.8}
+    ul.egmenu {  height: auto;}
+    ul.egmenu > li {  float: none;text-align: center; width: 100%; }
+    ul.egmenu a { line-height: 20px; }
+    ul.egmenu ul { position: relative; }
+    .nav-link:hover{
+    color: white;
+    background-color: black;
+					}
+	.map_picture img
+	{
+		width: 100%;
+	}
+	.logo h1
+	{
+		display: none!important;
+	}
+}
+}
+@media all and (min-width: 720px) {
+    ul.egmenu li:hover { background: #555;  }
+    ul.egmenu li:hover ul { display: block;  }
+} 
+@media all and (max-width: 720px) {
+    ul.egmenu {  height: auto; }
+    ul.egmenu > li {  float: none; width: 100%; }
+    ul.egmenu a { line-height: 40px; }
+    ul.egmenu ul { position: relative; }
+
+    ul.egmenu li.tap { background: #555;  }
+    ul.egmenu li.tap ul { display: block;  }
+}
+
+
+/*@media all and (max-width: 960px) {
+    ul.egmenu {  height: auto; }
+    ul.egmenu > li {  float: none; width: 100%; }
+    ul.egmenu a { line-height: 40px; }
+    ul.egmenu ul { position: relative; }
+    .nav-link:hover {
+    color: white;
+    background-color: black;
+}
+}
+@media all and (min-width: 960px) {
+    ul.egmenu li:hover { background: #555;  }
+    ul.egmenu li:hover ul { display: block;  }
+} 
+@media all and (max-width: 960px) {
+    ul.egmenu {  height: auto; }
+    ul.egmenu > li {  float: none; width: 100%; }
+    ul.egmenu a { line-height: 40px; }
+    ul.egmenu ul { position: relative; }
+
+    ul.egmenu li.tap { background: #555;  }
+    ul.egmenu li.tap ul { display: block;  }
+}*/

@@ -5,6 +5,9 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 	<title>Restaurant</title>
 	<meta charset="UTF-8">
+	<meta name="description" content="Italian restaurant,Restaurant,Menu,Location">
+	<meta name="keywords" content="Fish menu,Lunch,Dinner,Reservation,Meat Menu,Vegetarian Menu,Reserve">
+  <meta name="author" content="khatia khatiashvili">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Courgette|Raleway" rel="stylesheet">
@@ -14,24 +17,25 @@
 	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR|Open+Sans" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Arimo|Inconsolata|Noto+Sans+KR|Open+Sans" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-
-
 </head>
 	<body>
 		<header>
-			
+
 			<div class="container-fluid navbar fixed-top">
 				<div class="row navbar-menu">
 					<div class="logo d-inline-block">
-						<a href="#Welcome"><img src="image/logo.png" alt='logo-image'></a>
-						<h1 class="d-inline-block ml-2"> Italian Restaurant</h1>
+						<a href="#welcome">
+							<img src="image/logo.png" alt='logo-image'>
+						</a>
+							<h1 class="d-inline-block ml-2"> Italian Restaurant</h1>
+						
 					</div>
-							<ul class="nav justify-content-end">
+							<ul class="nav egmenu justify-content-end">
 							  <li class="nav-item">
-							    <a class="nav-link active" href="#Welcome">Welcome</a>
+							    <a class="nav-link active" href="#welcome">Welcome</a>
 							  </li>
 							  <li class="nav-item">
-							    <a class="nav-link" href="#Restaurant">Restaurant</a>
+							    <a class="nav-link"   href="#Restaurant">Restaurant</a>
 							  </li>
 							  <li class="nav-item">
 							    <a class="nav-link" href="#Menu">Menu</a>
@@ -47,7 +51,7 @@
 					
 				</div>
 		</header>
-		<section >
+		<section class="pt-5" id="welcome">
 			<div id="carouselExampleControls"  class="carousel slide" data-ride="carousel">
 			  <div class="carousel-inner">
 			    <div class="carousel-item active">
@@ -70,8 +74,8 @@
 			  </a>
 			</div>	
 		</section>
-		<section>
-			<div class="container fontstyle" id="Restaurant">
+		<section class="pt-5" id="Restaurant">
+			<div class="container fontstyle" >
 				<h2 class="text-center pt-5 pb-5">~ Restaurant ~</h2>
 				<div class="row restaurant-box">	
 					<div class="col-md-6 col-sm-12 col-lg-6 col-xl-6">
@@ -101,8 +105,8 @@
 				</div>
 			</div>
 		</section>
-		<section>
-			<div class="container fontstyle" id="Menu">
+		<section class="pt-5" id="Menu">
+			<div class="container fontstyle" >
 				<h2 class="text-center pt-5 pb-5">~ Menu ~</h2>
 				<div class="row ">
 					<div class="col-md-4 card view zoom">
@@ -147,8 +151,8 @@
 				</div>
 			</div>
 		</section>
-		<section>
-			<div class="container fontstyle" id="Reservation">
+		<section class="pt-5" id="Reservation">
+			<div class="container fontstyle" >
 				<h2 class="text-center pt-5 pb-5">~ Reservation ~</h2>
 				<div class="row reserve-row">
 					<div class="col-12">
@@ -211,11 +215,11 @@
 					</div>
 			</div>
 		</section>
-		<section>
-			<div class="container fontstyle" id="Location">
+		<section class="pt-5" id="Location">
+			<div class="container fontstyle" >
 				<h2 class="text-center pt-5 pb-5"> ~ Our Location ~</h2>
 				<div class="row">
-					<div class="col-md-12 col-sm-12 col-lg-9 col-xl-9" >
+					<div class="col-md-12 col-sm-12 col-lg-9 col-xl-9 map_picture" >
 						<img src="image/map.png" alt="map">
 					</div>
 					<div class="col-md-12 col-sm-12 col-lg-3 col-xl-3 pl-5 address-style">
@@ -230,15 +234,15 @@
 		<footer class="footer">
 			<div class="container pt-3 pb-1">
 				<div class="row footer-style">
-					<div class="col-md-4 col-sm-4 col-lg-4 col-xl-4">
+					<div class="col-md-4 col-sm-12 col-lg-4 col-xl-4">
 						<p class="text-center d-inline">Follow us: </p>
 						<i class="fab fa-facebook-square"></i>
 						<i class="fab fa-instagram"></i>
 					</div>
-					<div class="col-md-4 col-sm-4 col-lg-4 col-xl-4">
+					<div class="col-md-4 col-sm-12 col-lg-4 col-xl-4">
 						<p class="text-center">Copyright © 2019</p>
 					</div>
-					<div class="col-md-4 col-sm-4 col-lg-4 col-xl-4">
+					<div class="col-md-4 col-sm-12 col-lg-4 col-xl-4">
 						<p class="text-center">
 							By:  <a  href="https://github.com/xatiaxatiashvili"> khatia khatiashvili</a>
 						</p>
@@ -250,7 +254,5 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 		<script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
-
-
 	</body>
 </html>
