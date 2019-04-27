@@ -37,14 +37,19 @@ color: black;
 }
 .navbar-menu
 {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: space-between;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 	width: 100%;
 }
 .carousel-item img
 {
 	width: 100%;
-	object-fit: cover;
+	-o-object-fit: cover;
+	   object-fit: cover;
 	max-height: 700px;
 }
 .restaurant-box
@@ -68,7 +73,9 @@ color: black;
 	text-align: center;
 	top:40%;
 	left: 50%;
-	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	    -ms-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
 }
 .footer-style a
 {
@@ -184,10 +191,10 @@ font-family: 'Lato', sans-serif;
     color: white;
     background-color: black;
 					}
-	.map_picture img
+	/*.map_picture img
 	{
 		width: 100%;
-	}
+	}*/
 	.logo h1
 	{
 		display: none!important;
@@ -209,7 +216,7 @@ font-family: 'Lato', sans-serif;
 
     ul.egmenu li.tap { background: #555;  }
     ul.egmenu li.tap ul { display: block;  }
-    .map_picture img
+    .map_picture 
 	{
 		width: 100%;
 	}
@@ -260,6 +267,8 @@ font-family: 'Lato', sans-serif;
 		.navbar{
 			opacity: 0.8;
 			right: -1000px;
+			-webkit-transition: .3s;
+			-o-transition: .3s;
 			transition: .3s;
 			position: absolute;
 		}
@@ -277,7 +286,7 @@ font-family: 'Lato', sans-serif;
     color: white;
     background-color: black;
 					}
-	.map_picture img
+	.map_picture 
 	{
 		width: 100%;
 	}
@@ -286,12 +295,15 @@ font-family: 'Lato', sans-serif;
 		display: none!important;
 	}
 }
-}
 @media all and (min-width: 823px) {
     ul.egmenu li:hover { background: #555;  }
     ul.egmenu li:hover ul { display: block;  }
 } 
 @media all and (max-width: 823px) {
+	/*.map_picture 
+	{
+		width: 200px;
+	}*/
     ul.egmenu {  height: auto; }
     ul.egmenu > li {  float: none; width: 100%; }
     ul.egmenu a { line-height: 25px; }
