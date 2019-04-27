@@ -191,10 +191,6 @@ font-family: 'Lato', sans-serif;
     color: white;
     background-color: black;
 					}
-	/*.map_picture img
-	{
-		width: 100%;
-	}*/
 	.logo h1
 	{
 		display: none!important;
@@ -266,7 +262,6 @@ font-family: 'Lato', sans-serif;
 	}
 		.navbar{
 			opacity: 0.8;
-			right: -1000px;
 			-webkit-transition: .3s;
 			-o-transition: .3s;
 			transition: .3s;
@@ -300,10 +295,6 @@ font-family: 'Lato', sans-serif;
     ul.egmenu li:hover ul { display: block;  }
 } 
 @media all and (max-width: 823px) {
-	/*.map_picture 
-	{
-		width: 200px;
-	}*/
     ul.egmenu {  height: auto; }
     ul.egmenu > li {  float: none; width: 100%; }
     ul.egmenu a { line-height: 25px; }
